@@ -8,11 +8,6 @@
     "changelog": "auto-changelog -p && git add CHANGELOG.md",
     "release": "read -p 'GITHUB_TOKEN: ' GITHUB_TOKEN && export GITHUB_TOKEN=$GITHUB_TOKEN && release-it"
   },
-  "author": "KryPtoN",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/Kry9toN/KryPtoN-WhatsApp-Bot"
-  },
   "keywords": [
     "Whatsapp",
     "WhatsApp-Bot",
@@ -27,10 +22,7 @@
   "auto-changelog": {
     "commitLimit": false
   },
-  "bugs": {
-    "url": "https://github.com/Kry9toN/KryPtoN-WhatsApp-Bot/issues"
-  },
-  "homepage": "https://github.com/Kry9toN/KryPtoN-WhatsApp-Bot",
+
   "license": "ISC",
   "dependencies": {
     "@open-wa/wa-automate": "^2.0.27",
